@@ -1,0 +1,169 @@
+:root {
+    --main-color: #967630;
+    --black: #13131a;
+    --bg: #141415;
+    --main-color-2: #6e4b00;
+    --cinza: #606060;
+    --cinza-escuro: #4e4f55;
+    --azure-apg: #76868e;
+    --border: 0.1rem solid #606060;
+    font: size 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--bg);
+}
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+   border-bottom: #967630;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: var(--bg);
+
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding: bottom 1.5em;
+    ;
+}
+
+.header section a img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: var(--border);
+}
+
+.navbar {
+    margin: 0.1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid #4e4f55;
+    padding-bottom: 0.5rem;
+    font-size: 2.0rem;
+}
+
+.icon img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icon img:hover {
+    width:40px;
+    height: 40px;
+}
+
+
+
+.inicio{
+    background: url('./img/newton.jpg');
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+
+.content1 {
+    max-width: 60rem;
+}
+
+.content1 h3 {
+color:#fff;
+font-size: 4rem;
+font-family: "Pinyon Script", cursive;
+text-align: center;
+font-weight: 550;
+margin-top: 140px;
+margin-left: 200px;
+}
+
+a{
+    color: #4e4f55
+}
+.content h3 {
+color:#fff;
+font-size: 3rem;
+font-weight: 400;
+font-family: "Pinyon Script", cursive;
+text-align: center;
+margin-top: 20px;
+margin-left: 200px;
+margin-bottom: 30px;
+}
+
+.titulo{
+    font-size: 4rem;
+    color: #6e4b00;
+    text-align: center;
+    text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+}
+
+.container-image img{
+    width: 500px;
+    height: 350px;
+}
+
+.container-image{
+    width: 20px;
+    height: 30px;
+}
+
+.content p {
+    color: #fff;
+    text-align: justify;
+    margin-left: 550px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.8rem;
+}
+
+
+.botao{
+    width: 300px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 500px;
+    color: #fff;
+    background-color: #6e4b00;
+
+}
+
+.botao a{
+    color: #fff;
+    font-size: 30px;
+}
